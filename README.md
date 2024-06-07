@@ -19,10 +19,6 @@
    FLUSH PRIVILEGES;
    ```
 
-**Visuals:**
-- Screenshots of MySQL installation.
-- SQL commands in a code editor or terminal.
-
 ### Slide 2: Database Setup - Part 2
 
 **Title: Configure Laravel for the Database**
@@ -50,9 +46,7 @@
    php artisan migrate
    ```
 
-**Visuals:**
-- `.env` file with highlighted database settings.
-- Terminal showing migration command and success message.
+
 
 ### Slide 3: Backend Development - Part 1
 
@@ -100,10 +94,6 @@
    }
    ```
 
-**Visuals:**
-- Code snippets for migration and controller.
-- Terminal showing User model creation.
-
 ### Slide 4: Backend Development - Part 2
 
 **Title: Login and Fetch User Details Endpoints**
@@ -140,10 +130,6 @@
      Route::middleware('auth:api')->get('user', [AuthController::class, 'userDetails']);
      ```
 
-**Visuals:**
-- Code snippets for controller methods and routes.
-- Screenshot of successful API calls in Postman.
-
 ### Slide 5: Deployment - Part 1
 
 **Title: Preparing for Deployment**
@@ -162,10 +148,6 @@
 3. **Configure Environment:**
    - Copy `.env.example` to `.env`.
    - Set production database credentials in the `.env` file.
-
-**Visuals:**
-- Screenshot from cloud server dashboard.
-- Terminal commands for cloning the repository and setting environment variables.
 
 ### Slide 6: Deployment - Part 2
 
